@@ -50,7 +50,7 @@ app.get('/about', (req, res) => {
 app.get('/projects', (req, res) => {
 	res.render('projects.hbs', {
 		pageTitle: 'Projects Page',
-		welcomeMessage: 'This is where we\ll put project info.'
+		welcomeMessage: 'This is where we will put project info.'
 	});
 });
 
